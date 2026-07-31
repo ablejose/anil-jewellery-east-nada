@@ -3,70 +3,50 @@ import type { BrandConfig } from "@/types/brand";
 export const BRAND: BrandConfig = {
   businessName: "Anil Jewellery",
   tagline: "Your Trusted Jewellery Destination in Guruvayur",
-  description:
-    "Anil Jewellery is Guruvayur's trusted destination for exquisite gold, diamond, and silver jewellery. Serving the Guruvayur community with timeless craftsmanship for every celebration — from weddings to daily wear. Visit us at East Nada, Guruvayur.",
-
+  description: "Anil Jewellery is Guruvayur's trusted destination for exquisite gold, diamond, and silver jewellery. Serving the Guruvayur community with timeless craftsmanship for every celebration. Visit us at East Nada, Guruvayur, Kerala.",
   logo: "/icons/logo.svg",
   favicon: "/favicon.ico",
-
-  heroVideo:
-    "https://res.cloudinary.com/fylz5e3j/video/upload/v1782936959/VN20260702_013328_tbexfn.mp4",
-
+  heroVideo: "https://res.cloudinary.com/fylz5e3j/video/upload/v1782936959/VN20260702_013328_tbexfn.mp4",
   storyVideos: [
     {
       quote: "ലാളിത്യത്തിലെ പൂർണ്ണത.",
-      description:
-        "അണിയാൻ തീരെ ഭാരമില്ലാത്ത, എന്നാൽ കണ്ണഞ്ചിപ്പിക്കുന്ന ഡിസൈനുകൾ. നിങ്ങളുടെ ഓരോ സാധാരണ ദിവസത്തെയും മനോഹരമാക്കാൻ ഇവ മതിയാകും.",
-      video:
-        "https://res.cloudinary.com/fylz5e3j/video/upload/v1782936959/VN20260702_013328_tbexfn.mp4",
+      description: "അണിയാൻ തീരെ ഭാരമില്ലാത്ത, എന്നാൽ കണ്ണഞ്ചിപ്പിക്കുന്ന ഡിസൈനുകൾ. നിങ്ങളുടെ ഓരോ സാധാരണ ദിവസത്തെയും മനോഹരമാക്കാൻ ഇവ മതിയാകും.",
+      video: "https://res.cloudinary.com/fylz5e3j/video/upload/v1782936959/VN20260702_013328_tbexfn.mp4",
       segments: { startAt: 0, loopEnd: 8 },
     },
     {
       quote: "കൈകളിൽ വിരിയുന്ന വിസ്മയം.",
-      description:
-        "ഓരോ ആഭരണവും ഓരോ കലാരൂപമാണ്. അതിസൂക്ഷ്മമായി, തികഞ്ഞ പൂർണ്ണതയോടെ രൂപപ്പെടുത്തിയെടുത്തവ. നിങ്ങളുടെ സ്വപ്നങ്ങൾക്ക് സ്വർണ്ണത്തിൽ ജീവൻ വയ്ക്കുമ്പോൾ.",
-      video:
-        "https://res.cloudinary.com/fylz5e3j/video/upload/v1782936959/VN20260702_013328_tbexfn.mp4",
+      description: "ഓരോ ആഭരണവും ഓരോ കലാരൂപമാണ്. അതിസൂക്ഷ്മമായി, തികഞ്ഞ പൂർണ്ണതയോടെ രൂപപ്പെടുത്തിയെടുത്തവ. നിങ്ങളുടെ സ്വപ്നങ്ങൾക്ക് സ്വർണ്ണത്തിൽ ജീവൻ വയ്ക്കുമ്പോൾ.",
+      video: "https://res.cloudinary.com/fylz5e3j/video/upload/v1782936959/VN20260702_013328_tbexfn.mp4",
       segments: { startAt: 32, loopEnd: 40 },
     },
     {
       quote: "ഗുരുവായൂരിൻ്റെ ഹൃദയത്തിൽ നിന്ന്.",
-      description:
-        "ഈ നാടിൻ്റെ പൈതൃകവും പുതുമയും ഒത്തുചേരുന്ന ആഭരണങ്ങൾ. തലമുറകളായി നിങ്ങൾ നൽകുന്ന വിശ്വാസത്തിന് സ്വർണ്ണത്തേക്കാൾ തിളക്കമുണ്ട്.",
-      video:
-        "https://res.cloudinary.com/fylz5e3j/video/upload/v1782936959/VN20260702_013328_tbexfn.mp4",
+      description: "ഈ നാടിൻ്റെ പൈതൃകവും പുതുമയും ഒത്തുചേരുന്ന ആഭരണങ്ങൾ. തലമുറകളായി നിങ്ങൾ നൽകുന്ന വിശ്വാസത്തിന് സ്വർണ്ണത്തേക്കാൾ തിളക്കമുണ്ട്.",
+      video: "https://res.cloudinary.com/fylz5e3j/video/upload/v1782936959/VN20260702_013328_tbexfn.mp4",
       segments: { startAt: 16, loopEnd: 24 },
     },
   ],
-
   storeImages: [
     "https://res.cloudinary.com/sqsrrir4/image/upload/v1785528574/guruvayur/anil-jewellery-east-nada-store1.webp",
     "https://res.cloudinary.com/sqsrrir4/image/upload/v1785528575/guruvayur/anil-jewellery-east-nada-store2.webp",
     "https://res.cloudinary.com/sqsrrir4/image/upload/v1785528578/guruvayur/anil-jewellery-east-nada-store3.webp",
     "https://res.cloudinary.com/sqsrrir4/image/upload/v1785528581/guruvayur/anil-jewellery-east-nada-store4.webp",
   ],
-
   address: "East Nada, Guruvayur, Thrissur, Kerala 680101",
   city: "Guruvayur",
   state: "Kerala",
   pincode: "680101",
-
   phone: "",
   whatsapp: "",
   email: "",
-
-  mapsLink:
-    "https://www.google.com/maps?cid=9458212376093381093",
-
+  mapsLink: "https://www.google.com/maps?cid=9458212376093381093",
   openingHours: "Mon\u2013Sat: 9:30 AM \u2013 8:00 PM \u00b7 Sunday: 10:00 AM \u2013 7:00 PM",
-
-  instagram: "https://www.instagram.com/anil_jewellery",
+  instagram: "https://www.instagram.com/anil_jewellery/",
   facebook: "",
-
   seo: {
     title: "Anil Jewellery | Gold & Diamond Jewellery in Guruvayur",
-    description:
-      "Anil Jewellery — your trusted jewellery store in Guruvayur. Exquisite gold, diamond, and silver jewellery for every occasion. Located at East Nada, Guruvayur, Kerala.",
+    description: "Anil Jewellery \u2014 your trusted jewellery store in Guruvayur. Gold, diamond, and silver jewellery for every occasion. East Nada, Guruvayur, Kerala.",
     keywords: [
       "Anil Jewellery",
       "jewellery Guruvayur",
@@ -78,12 +58,8 @@ export const BRAND: BrandConfig = {
       "gold shop Guruvayur",
     ],
     canonical: "https://anil-jewellery-east-nada.vercel.app",
-    ogImage:
-      "https://res.cloudinary.com/sqsrrir4/image/upload/v1785528574/guruvayur/anil-jewellery-east-nada-store1.webp",
+    ogImage: "https://res.cloudinary.com/sqsrrir4/image/upload/v1785528574/guruvayur/anil-jewellery-east-nada-store1.webp",
   },
-
   faq: [],
-
-  whatsappMessage:
-    "Hello Anil Jewellery, I'd like to know more about your jewellery collections.",
+  whatsappMessage: "Hello Anil Jewellery, I\'d like to know more about your jewellery collections.",
 };
